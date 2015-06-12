@@ -27,7 +27,7 @@ import re
 
 class Source(object):
     def __init__(self):
-        self.mark = '[B]'
+        self.mark = 'B'
         self.filters = ['matcher_fuzzy']
         pass
 

@@ -27,7 +27,7 @@ import re
 
 class Source(object):
     def __init__(self):
-        self.mark = '[T]'
+        self.mark = 'T'
         self.filters = ['matcher_fuzzy']
 
     def get_complete_position(self, vim, context):

@@ -114,8 +114,8 @@ class Deoplete(object):
 
             # Set default menu
             for candidate in context['candidates']:
-                if not 'menu' in candidate:
-                    candidate['menu'] = source.mark
+                if not 'kind' in candidate:
+                    candidate['kind'] = source.mark
 
             candidates += context['candidates']
 
